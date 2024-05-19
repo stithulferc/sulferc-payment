@@ -1,0 +1,116 @@
+
+
+
+/**
+ * cpmw_modals ($cpmw_modals)
+ */
+
+/* 1. Ensure this sits above everything when visible */
+button.cpmw_modal-toggle {
+    cursor: pointer;
+}
+.cpmw_modal {
+    position: absolute;
+    z-index: 10000; /* 1 */
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.cpmw_modal.is-visible {
+    visibility: visible;
+}
+
+.cpmw_modal-overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.cpmw_modal.is-visible .cpmw_modal-overlay {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.cpmw_modal-wrapper {
+  position: absolute;
+  z-index: 9999;
+  top: 6em;
+  left: 50%;
+  width: 48em;
+  height: 36em;
+  margin-left: -16em;
+  background-color: #fff;
+  box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+}
+
+.cpmw_modal-transition {
+  transition: all 0.3s 0.12s;
+  transform: translateY(-10%);
+  opacity: 0;
+}
+
+.cpmw_modal.is-visible .cpmw_modal-transition {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.cpmw_modal-header,
+.cpmw_modal-content {
+  padding: 1em;
+}
+
+.cpmw_modal-header {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.cpmw_modal-close {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  color: #aaa;
+  background: none;
+  border: 0;
+}
+
+.cpmw_modal-close:hover {
+  color: #777;
+}
+
+.cpmw_modal-heading {
+  font-size: 1.125em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-submenu a[href*="admin.php?page=wc-settings&tab=checkout&section=cpmw"] strong {
+    background: #e86011;
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.csf-content img {
+  width: 100%;
+  height: auto;
+}
+
+.csf-field-select select option:disabled {
+  background: #b7b7b74f; /* Adjust the color to your preference */
+}

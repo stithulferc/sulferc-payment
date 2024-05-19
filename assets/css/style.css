@@ -1,0 +1,515 @@
+div#cmpw_meta_connect {
+    margin-top: 60px;
+}
+.cpmw_payment_box {
+    max-width: 450px;
+    margin: 20px auto;
+    border: 2px solid #00000018;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px #00000008;
+}
+.cpmw_payment_box * {
+    box-sizing: border-box;
+}
+.cpmw_p_connect .cpwmp_not_connected{
+    cursor: pointer;
+}
+.cpmw_p_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #f3f3f6, #ffffff);
+    border-bottom: 1px solid #00000018;
+    padding: 20px;
+    box-shadow: inset 0px 1.5px 0px #fff;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+.cpmw_p_logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+    border: 2px solid;
+    border-color: #00000018 #00000018 #fff #fff;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: inset 1.5px -1.5px 0px 0px #00000018;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -70px;
+    transform: rotate(-45deg);
+}
+.cpmw_p_address {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 50%;
+    text-overflow: ellipsis;
+}
+
+.cpmw_p_logo img {
+    width: 100%;
+    height: auto;
+    transform: rotate(45deg);
+}
+.cpmw_p_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+}
+
+.cpmw_p_connect {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: linear-gradient(180deg, #f3f3f6, #ffffff);
+    border-bottom: 1px solid #00000018;
+    padding: 10px;
+    box-shadow: inset 0px 1.5px 0px #fff;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    color: #606069;
+}
+.cpmw_p_status:before, .cpmw_p_notice:before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0cd20c;
+    margin-right: 5px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+.cpmw_p_status.no_connect:before {
+    background: #ff1919;
+}
+.cpmw_p_notice:before {
+    background: #ff1919 !Important;
+}
+
+.cpmw_p_body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    background: linear-gradient(180deg, #f3f3f6, 25%, #ffffff);
+    box-shadow: inset 0px 1.5px 0px #fff;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.cpmw_p_desc {
+    font-size: 16px;
+    color: #606064;
+    text-shadow: 0 1.5px #fff;
+}
+.cpmw_p_info {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 2px solid #00000018;
+    border-radius: 6px;
+}
+.cpmw_p_amount {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 20px;
+    align-items: center;
+    color: #222;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #00000018;
+    position: relative;
+}
+.cpmw_p_amount span {
+    color: #606064;
+}
+.cpmw_p_info img {
+    height: 24px;
+    width: auto;
+}
+.cpmw_p_amount:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-width: 2px 2px 0 0;
+    border-color: #00000018;
+    background: #fff;
+    border-style: solid;
+    transform: rotate(135deg);
+    left: calc(50% - 5px);
+    bottom: -7px;
+}
+.cpmw_p_network {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 18px;
+    align-items: center;
+    color: #606064;
+    padding: 12px 10px;
+    font-style: italic;
+}
+.cpmw_p_button {
+    background: #f89c35;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0px 1px 0 #f8c790;
+    color: #271807;
+    border: 1px solid #00000018;
+    box-shadow: inset 0px 0px 5px -2px #00000080;
+}
+.cpmw_p_button.no_connect {
+    cursor: not-allowed;
+    background: #ddd;
+    color: #999;
+    text-shadow: 0 1px 0 #fff;
+}
+.cpmw_p_button:hover{
+    opacity:0.85;
+}
+.cpmw_p_note, .cpmw_p_notice {
+    font-size: 12px;
+    color: #808084;
+    text-shadow: 0 1.5px #fff;
+}
+.cpmw_payment_box a {
+    cursor: pointer;
+    color: #f89c35;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+.cpmw_payment_box a:hover {
+    color: #606064;
+}
+
+@media screen and (max-width: 380px) {
+    .cpmw_p_connect {
+        flex-direction: column;
+    }
+    .cpmw_p_body {
+        padding: 10px;
+    }
+}
+
+
+.swal2-popup.swal2-modal.cpmwp_popup.swal2-show {
+    max-width: 375px;
+    width: 100%;
+    margin: 20px auto; 
+    border: 2px solid #00000018;
+    box-sizing: border-box;
+    padding: unset;
+    /* display: flex;
+    flex-direction: column; */
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 10px 5px #00000008;
+}
+
+
+
+.cpmw_popup * {
+    box-sizing: border-box;
+}
+.cpmw_popup a {
+    color: #f89c35;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-size: 16px;
+}
+.cpmw_popup a:hover {
+    color: #606064;
+}
+
+.cpmw_pp_top {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #f3f3f6, #ffffff);
+    border-bottom: 1px solid #00000018;
+    padding: 20px;
+    box-shadow: inset 0px 1.5px 0px #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+.cpmw_pp_logo {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    padding: 25px;
+    border: 3px solid #00000018;
+    border-radius: 50%;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cpmw_pp_logo:after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-bottom-color: #f89c35;
+    animation: rotation 1.5s linear infinite;
+    -webkit-animation: rotation 1.5s linear infinite;
+}
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+} 
+.cpmw_pp_logo img {
+    width: 100%;
+    height: auto;
+}
+.cpmw_pp_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    text-shadow: 0 1.5px #fff;
+}
+.cpmw_pp_desc {
+    font-size: 14px;
+    color: #808084;
+    text-shadow: 0 1.5px #fff;
+}
+
+.cpmw_pp_bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: linear-gradient(180deg, #f3f3f6, #ffffff);
+    padding: 10px;
+    box-shadow: inset 0px 1.5px 0px #fff;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+}
+.cpmw_pp_status {
+    font-size: 12px;
+    color: #808084;
+    text-shadow: 0 1.5px #fff;
+    font-weight: bold;
+}
+.cpmw_pp_status_btn {
+    background: #fffbaa;
+    padding: 3px;
+    font-size: 12px;
+    color: #bea551;
+    border: 1px solid #00000018;
+    border-radius: 2px;
+}
+
+.trans_error .cpmw_pp_logo:before,
+.trans_success .cpmw_pp_logo:before {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 3px solid;
+    background: #fff;
+    right: -12px;
+    top: 12px;
+}
+.trans_error .cpmw_pp_title {
+    color: #ff1919;
+}
+.trans_error .cpmw_pp_logo {
+    border-color: #ff1919;
+}
+.trans_error .cpmw_pp_logo:after {
+    display:none;
+}
+.trans_error .cpmw_pp_logo:before {
+    content: '\2715';
+    border-color: #ff1919;
+    color: #ff1919;
+}
+.trans_error .cpmw_pp_status_btn {
+    background: #ffcfcf;
+    color: #9d6969;
+}
+
+.trans_process .cpmw_pp_logo:after {
+    border-bottom-color: #0cd20c;
+}
+
+.trans_success .cpmw_pp_title {
+    color: #0cd20c;
+}
+.trans_success .cpmw_pp_logo {
+    border-color: #0cd20c;
+}
+.trans_success .cpmw_pp_logo:after {
+    display:none;
+}
+.trans_success .cpmw_pp_logo:before {
+    content: '\2713';
+    border-color: #0cd20c;
+    color: #0cd20c;
+}
+.trans_success .cpmw_pp_status_btn {
+    background: #a2ffaf;
+    color: #25aa37;
+}
+      
+/* Swal custom style */
+
+.cpmwp_popup div#swal2-html-container{
+    margin: auto;   
+}
+
+
+td.cpmwp_statu_pending ,
+td.cpmwp_statu_failed {
+    
+    background: #e1d8c6;
+    color: #c90606;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+}
+td.cpmwp_statu_processing ,
+td.cpmwp_statu_completed{
+    
+   background: #c6e1c6;
+    color: #5b841b;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+}
+td.cpmwp_statu_on-hold,
+td.cpmwp_statu_cancelled {
+    
+    color: #777;
+    background: #e5e5e5;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+}
+div#walletconnect-wrapper .walletconnect-modal__base {
+    max-width: 400px;
+}
+
+/* ccpwp-Card styles */
+.ccpwp-card{
+    background-color: #fff;
+    height: auto;
+    margin: 0 auto;
+    max-width: 460px;
+    overflow: hidden;           
+    border-radius: 5px;
+    box-shadow: 9px 17px 45px -29px
+                rgba(0, 0, 0, 0.44);
+}
+
+/* ccpwp-Card image ccpwp-loading */
+.ccpwp-card__image img {
+    width: 100%;
+    height: 100%;
+}
+    
+.ccpwp-card__image.ccpwp-loading {
+    height: 300px;  
+}
+
+/* ccpwp-Card title */
+.ccpwp-card__title {
+    padding: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+    
+.ccpwp-card__title.ccpwp-loading {
+    height: 1rem;   
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+/* ccpwp-Card description */
+.ccpwp-card__description {
+    padding: 8px;
+    font-size: 16px;
+}
+    
+.ccpwp-card__description.ccpwp-loading {
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+/* The ccpwp-loading Class */
+.ccpwp-loading {
+    position: relative;
+    background-color: #e2e2e2;
+}
+
+/* The moving element */
+.ccpwp-loading::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background: -webkit-gradient(linear, left top,
+                right top, from(transparent), 
+                color-stop(rgba(255, 255, 255, 0.2)),
+                to(transparent));
+                    
+    background: linear-gradient(90deg, transparent,
+            rgba(255, 255, 255, 0.2), transparent);
+
+    /* Adding animation */
+    animation: ccpwp-loading 0.8s infinite;
+}
+
+/* ccpwp-Loading Animation */
+@keyframes ccpwp-loading {
+    100% {
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,240 @@
+
+
+@media screen and (max-width:396px) {
+  #payment .payment_box.payment_method_cpmw select{
+        width: 100%;
+    }
+}
+
+#payment .payment_box.payment_method_cpmw p.cpmw_selected_network{
+font-size: 12px;
+}
+
+
+
+.cpmw-supported-wallets-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+.cmpw_meta_connect .wallet-icon {
+    text-align: center;
+}
+.cmpw_meta_connect .wallet-icon img {
+    /* width: 27%; */
+    display: initial;
+    width: 100px;
+    height: 100px;
+}
+
+
+.cpmw_wallet_name {
+    font-weight: 500;
+}
+.payment_method_cpmw label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cpmw_payment_details .cpmw_details_box {
+    width: 100%;
+   
+    text-align: center;
+}
+
+.cpmw_payment_pending {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.cpmw_payment_complete {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.cpmw_order_expired {
+        width: 100%;
+    text-align: center;
+    display: none;
+}
+
+
+/*payment field css*/
+.cpmw-pymentfield span {
+    margin-top: 4px;
+    font-weight: 700;
+}
+.cpmw-pymentfield {
+    display: inline-grid;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    border: 2px solid #00000015;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.cpmw-pymentfield img {
+    left: 0;
+    display: block;
+    top: 3px;
+}
+.cpmw-pymentfield input.cpmw_payment_method,  .cpmw-pymentfield img {
+    margin: 0 auto !important;
+}
+
+
+.cpmw_loader {
+    text-align: center;
+}
+/*metamask connect*/
+
+.cmpw_meta_connect {
+    display: none;
+    /* flex-direction: column;
+    align-items: center; */
+    margin: 5px auto;
+    
+}
+.wallet-name {
+    margin-left: 8%;
+    font-size: 30px;
+}
+.cpmw_connect_btn {
+     margin-left: 0;
+     text-align: center;
+}
+
+.cpmw_loader_wrap{
+    display: none;
+    justify-content: center;
+    max-width: 45460px0px;
+    margin: 0 auto;
+}
+
+.cmpw_meta_wrapper{
+    display: none;
+    justify-content: center;
+    max-width: 460px;
+    margin: 0 auto;
+}
+.cmpw_meta_wrapper .container .cpmw-info:first-child {
+margin-right: 30px;
+}
+.cmpw_meta_wrapper .container .cpmw-info {
+    max-width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.cmpw_meta_wrapper .container {
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+   
+    border-radius: 16px;
+    margin: 10px 0px;
+    border: 2px solid black;
+    box-shadow: -10px 8px 15px lightgrey, 10px 8px 15px lightgrey;
+}
+
+.cmpw_meta_wrapper .container .cpmw-info>div span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cmpw_meta_wrapper .container .cpmw-info>div {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.cmpw_meta_wrapper .container .cpmw-info>div .account-address{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.cmpw_meta_wrapper .container .disconnect-btn-wrapper, .cmpw_meta_wrapper .container .pay-btn-wrapper {
+    text-align: center;
+}
+
+.cmpw_meta_wrapper .container  .cpmw-pay-wallet-icon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li.wc_payment_method.payment_method_cpmw img {
+    height: 20px;
+}
+
+.cmpw_meta_wrapper .container button.confirm-btn [disabled="disbaled"] {
+   
+    background: #a570b7a8;
+  
+}
+
+.cpmw_loader_wrap .cpmw_payment_sucess{
+    color: green;
+
+}
+.cpmw_loader_wrap .cpmw_payment_rejected{
+ color: red;
+}
+
+.swal2-footer p.cpmw_transaction_note{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+
+.cmpw_meta_wrapper .container .cpmw-pay-wallet-icon img,.cpmw_loader_wrap img ,.swal-icon.swal-icon--custom img{
+    display: inline;
+}
+.cpmw-pymentfield input.input-radio {
+    display: block;
+}
+.cpmw-supported-wallets-wrap input.input-radio {
+    display: inline-block;
+}
+.payment_method_cpmw label {
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+
+.cpmw-pymentfield input[type="radio"]:checked ~ p.cpmw_crypto_price::after {
+    content: "✔";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    color: green;
+    z-index: 1;
+    top: -10px;
+    right: -10px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.145);
+    border-image: initial;
+}
+
+ .cpmw-pymentfield input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
