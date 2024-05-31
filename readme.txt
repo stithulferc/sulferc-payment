@@ -51,11 +51,11 @@ By accepting cryptocurrency payments through your WooCommerce store, you can enj
 
 This plugin is not developed by or affiliated with "**MetaMask**" or "**ConsenSys**".
 
-**[🔗 Stithulf ERC](https://erc.stithulf.com)** has built the initial version of the plugin and made it open source. The next versions will be contributed by community. Here are a few words about company:-
+**[🔗 Stithulf ERC](https://erc.stithulf.com)** has built the plugin and made it open source. The next versions will be contributed by community. Here are a few words about company:-
 
-* Built 2 therotical financial instruments called Equity-driven Revenue Cycle (ERC) and Interest rates of International Standards (IRIS)
-* This is Stithulf ERC's first practical financial instrument
-* 2K+ market cap of Stithulf ERC Crypto Token
+* Stithulf ERC is a Crypto Project based on BSC Network. It is added in liquidity pools with USDT, CAKE and WBNB
+* Researched 2 therotical financial instruments called Equity-driven Revenue Cycle (ERC) and Interest rates of International Standards (IRIS)
+* This is Stithulf ERC's first practical financial product
 
 > We build Financial Instruments to strengthen global banking industry.
 
