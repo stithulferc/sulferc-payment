@@ -1,7 +1,7 @@
 div#cmpw_meta_connect {
     margin-top: 60px;
 }
-.cpmw_payment_box {
+.cpgw_payment_box {
     max-width: 450px;
     margin: 20px auto;
     border: 2px solid #00000018;
@@ -16,13 +16,13 @@ div#cmpw_meta_connect {
     -o-border-radius: 10px;
     box-shadow: 2px 2px 10px 5px #00000008;
 }
-.cpmw_payment_box * {
+.cpgw_payment_box * {
     box-sizing: border-box;
 }
-.cpmw_p_connect .cpwmp_not_connected{
+.cpgw_p_connect .cpwmp_not_connected{
     cursor: pointer;
 }
-.cpmw_p_header {
+.cpgw_p_header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@ div#cmpw_meta_connect {
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
 }
-.cpmw_p_logo {
+.cpgw_p_logo {
     width: 100px;
     height: 100px;
     display: flex;
@@ -53,26 +53,26 @@ div#cmpw_meta_connect {
     margin-top: -70px;
     transform: rotate(-45deg);
 }
-.cpmw_p_address {
+.cpgw_p_address {
     white-space: nowrap;
     overflow: hidden;
     max-width: 50%;
     text-overflow: ellipsis;
 }
 
-.cpmw_p_logo img {
+.cpgw_p_logo img {
     width: 100%;
     height: auto;
     transform: rotate(45deg);
 }
-.cpmw_p_title {
+.cpgw_p_title {
     font-size: 18px;
     font-weight: bold;
     color: #222;
     text-align: center;
 }
 
-.cpmw_p_connect {
+.cpgw_p_connect {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -85,7 +85,7 @@ div#cmpw_meta_connect {
     font-size: 14px;
     color: #606069;
 }
-.cpmw_p_status:before, .cpmw_p_notice:before {
+.cpgw_p_status:before, .cpgw_p_notice:before {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -95,14 +95,14 @@ div#cmpw_meta_connect {
     display: inline-block;
     vertical-align: middle;
 }
-.cpmw_p_status.no_connect:before {
+.cpgw_p_status.no_connect:before {
     background: #ff1919;
 }
-.cpmw_p_notice:before {
+.cpgw_p_notice:before {
     background: #ff1919 !Important;
 }
 
-.cpmw_p_body {
+.cpgw_p_body {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -115,19 +115,19 @@ div#cmpw_meta_connect {
     -ms-border-radius: 0 0 10px 10px;
     -o-border-radius: 0 0 10px 10px;
 }
-.cpmw_p_desc {
+.cpgw_p_desc {
     font-size: 16px;
     color: #606064;
     text-shadow: 0 1.5px #fff;
 }
-.cpmw_p_info {
+.cpgw_p_info {
     display: flex;
     flex-direction: column;
     background: #fff;
     border: 2px solid #00000018;
     border-radius: 6px;
 }
-.cpmw_p_amount {
+.cpgw_p_amount {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -139,14 +139,14 @@ div#cmpw_meta_connect {
     border-bottom: 2px solid #00000018;
     position: relative;
 }
-.cpmw_p_amount span {
+.cpgw_p_amount span {
     color: #606064;
 }
-.cpmw_p_info img {
+.cpgw_p_info img {
     height: 24px;
     width: auto;
 }
-.cpmw_p_amount:after {
+.cpgw_p_amount:after {
     content: "";
     position: absolute;
     width: 10px;
@@ -159,7 +159,7 @@ div#cmpw_meta_connect {
     left: calc(50% - 5px);
     bottom: -7px;
 }
-.cpmw_p_network {
+.cpgw_p_network {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -169,7 +169,7 @@ div#cmpw_meta_connect {
     padding: 12px 10px;
     font-style: italic;
 }
-.cpmw_p_button {
+.cpgw_p_button {
     background: #f89c35;
     padding: 16px;
     font-size: 18px;
@@ -181,41 +181,41 @@ div#cmpw_meta_connect {
     border: 1px solid #00000018;
     box-shadow: inset 0px 0px 5px -2px #00000080;
 }
-.cpmw_p_button.no_connect {
+.cpgw_p_button.no_connect {
     cursor: not-allowed;
     background: #ddd;
     color: #999;
     text-shadow: 0 1px 0 #fff;
 }
-.cpmw_p_button:hover{
+.cpgw_p_button:hover{
     opacity:0.85;
 }
-.cpmw_p_note, .cpmw_p_notice {
+.cpgw_p_note, .cpgw_p_notice {
     font-size: 12px;
     color: #808084;
     text-shadow: 0 1.5px #fff;
 }
-.cpmw_payment_box a {
+.cpgw_payment_box a {
     cursor: pointer;
     color: #f89c35;
     text-decoration: none;
     border-bottom: 1px solid;
 }
-.cpmw_payment_box a:hover {
+.cpgw_payment_box a:hover {
     color: #606064;
 }
 
 @media screen and (max-width: 380px) {
-    .cpmw_p_connect {
+    .cpgw_p_connect {
         flex-direction: column;
     }
-    .cpmw_p_body {
+    .cpgw_p_body {
         padding: 10px;
     }
 }
 
 
-.swal2-popup.swal2-modal.cpmwp_popup.swal2-show {
+.swal2-popup.swal2-modal.cpgwp_popup.swal2-show {
     max-width: 375px;
     width: 100%;
     margin: 20px auto; 
@@ -232,20 +232,20 @@ div#cmpw_meta_connect {
 
 
 
-.cpmw_popup * {
+.cpgw_popup * {
     box-sizing: border-box;
 }
-.cpmw_popup a {
+.cpgw_popup a {
     color: #f89c35;
     text-decoration: none;
     border-bottom: 1px solid;
     font-size: 16px;
 }
-.cpmw_popup a:hover {
+.cpgw_popup a:hover {
     color: #606064;
 }
 
-.cpmw_pp_top {
+.cpgw_pp_top {
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -259,7 +259,7 @@ div#cmpw_meta_connect {
     border-radius: 10px 10px 0 0;
     text-align: center;
 }
-.cpmw_pp_logo {
+.cpgw_pp_logo {
     width: 125px;
     height: 125px;
     display: flex;
@@ -271,7 +271,7 @@ div#cmpw_meta_connect {
     align-items: center;
     position: relative;
 }
-.cpmw_pp_logo:after {
+.cpgw_pp_logo:after {
     content: '';
     box-sizing: border-box;
     position: absolute;
@@ -293,23 +293,23 @@ div#cmpw_meta_connect {
       transform: rotate(360deg);
     }
 } 
-.cpmw_pp_logo img {
+.cpgw_pp_logo img {
     width: 100%;
     height: auto;
 }
-.cpmw_pp_title {
+.cpgw_pp_title {
     font-size: 16px;
     font-weight: bold;
     color: #222;
     text-shadow: 0 1.5px #fff;
 }
-.cpmw_pp_desc {
+.cpgw_pp_desc {
     font-size: 14px;
     color: #808084;
     text-shadow: 0 1.5px #fff;
 }
 
-.cpmw_pp_bottom {
+.cpgw_pp_bottom {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -320,13 +320,13 @@ div#cmpw_meta_connect {
     border-radius: 0 0 10px 10px;
     align-items: center;
 }
-.cpmw_pp_status {
+.cpgw_pp_status {
     font-size: 12px;
     color: #808084;
     text-shadow: 0 1.5px #fff;
     font-weight: bold;
 }
-.cpmw_pp_status_btn {
+.cpgw_pp_status_btn {
     background: #fffbaa;
     padding: 3px;
     font-size: 12px;
@@ -335,8 +335,8 @@ div#cmpw_meta_connect {
     border-radius: 2px;
 }
 
-.trans_error .cpmw_pp_logo:before,
-.trans_success .cpmw_pp_logo:before {
+.trans_error .cpgw_pp_logo:before,
+.trans_success .cpgw_pp_logo:before {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -351,57 +351,57 @@ div#cmpw_meta_connect {
     right: -12px;
     top: 12px;
 }
-.trans_error .cpmw_pp_title {
+.trans_error .cpgw_pp_title {
     color: #ff1919;
 }
-.trans_error .cpmw_pp_logo {
+.trans_error .cpgw_pp_logo {
     border-color: #ff1919;
 }
-.trans_error .cpmw_pp_logo:after {
+.trans_error .cpgw_pp_logo:after {
     display:none;
 }
-.trans_error .cpmw_pp_logo:before {
+.trans_error .cpgw_pp_logo:before {
     content: '\2715';
     border-color: #ff1919;
     color: #ff1919;
 }
-.trans_error .cpmw_pp_status_btn {
+.trans_error .cpgw_pp_status_btn {
     background: #ffcfcf;
     color: #9d6969;
 }
 
-.trans_process .cpmw_pp_logo:after {
+.trans_process .cpgw_pp_logo:after {
     border-bottom-color: #0cd20c;
 }
 
-.trans_success .cpmw_pp_title {
+.trans_success .cpgw_pp_title {
     color: #0cd20c;
 }
-.trans_success .cpmw_pp_logo {
+.trans_success .cpgw_pp_logo {
     border-color: #0cd20c;
 }
-.trans_success .cpmw_pp_logo:after {
+.trans_success .cpgw_pp_logo:after {
     display:none;
 }
-.trans_success .cpmw_pp_logo:before {
+.trans_success .cpgw_pp_logo:before {
     content: '\2713';
     border-color: #0cd20c;
     color: #0cd20c;
 }
-.trans_success .cpmw_pp_status_btn {
+.trans_success .cpgw_pp_status_btn {
     background: #a2ffaf;
     color: #25aa37;
 }
       
 /* Swal custom style */
 
-.cpmwp_popup div#swal2-html-container{
+.cpgwp_popup div#swal2-html-container{
     margin: auto;   
 }
 
 
-td.cpmwp_statu_pending ,
-td.cpmwp_statu_failed {
+td.cpgwp_statu_pending ,
+td.cpgwp_statu_failed {
     
     background: #e1d8c6;
     color: #c90606;
@@ -410,8 +410,8 @@ td.cpmwp_statu_failed {
     font-size: 16px;
     
 }
-td.cpmwp_statu_processing ,
-td.cpmwp_statu_completed{
+td.cpgwp_statu_processing ,
+td.cpgwp_statu_completed{
     
    background: #c6e1c6;
     color: #5b841b;
@@ -420,8 +420,8 @@ td.cpmwp_statu_completed{
     font-size: 16px;
     
 }
-td.cpmwp_statu_on-hold,
-td.cpmwp_statu_cancelled {
+td.cpgwp_statu_on-hold,
+td.cpgwp_statu_cancelled {
     
     color: #777;
     background: #e5e5e5;
