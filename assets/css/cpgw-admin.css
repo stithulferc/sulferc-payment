@@ -2,14 +2,14 @@
 
 
 /**
- * cpmw_modals ($cpmw_modals)
+ * cpgw_modals ($cpgw_modals)
  */
 
 /* 1. Ensure this sits above everything when visible */
-button.cpmw_modal-toggle {
+button.cpgw_modal-toggle {
     cursor: pointer;
 }
-.cpmw_modal {
+.cpgw_modal {
     position: absolute;
     z-index: 10000; /* 1 */
     top: 0;
@@ -19,11 +19,11 @@ button.cpmw_modal-toggle {
     height: 100%;
 }
 
-.cpmw_modal.is-visible {
+.cpgw_modal.is-visible {
     visibility: visible;
 }
 
-.cpmw_modal-overlay {
+.cpgw_modal-overlay {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -36,13 +36,13 @@ button.cpmw_modal-toggle {
   transition: visibility 0s linear 0.3s, opacity 0.3s;
 }
 
-.cpmw_modal.is-visible .cpmw_modal-overlay {
+.cpgw_modal.is-visible .cpgw_modal-overlay {
   opacity: 1;
   visibility: visible;
   transition-delay: 0s;
 }
 
-.cpmw_modal-wrapper {
+.cpgw_modal-wrapper {
   position: absolute;
   z-index: 9999;
   top: 6em;
@@ -54,30 +54,30 @@ button.cpmw_modal-toggle {
   box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
 }
 
-.cpmw_modal-transition {
+.cpgw_modal-transition {
   transition: all 0.3s 0.12s;
   transform: translateY(-10%);
   opacity: 0;
 }
 
-.cpmw_modal.is-visible .cpmw_modal-transition {
+.cpgw_modal.is-visible .cpgw_modal-transition {
   transform: translateY(0);
   opacity: 1;
 }
 
-.cpmw_modal-header,
-.cpmw_modal-content {
+.cpgw_modal-header,
+.cpgw_modal-content {
   padding: 1em;
 }
 
-.cpmw_modal-header {
+.cpgw_modal-header {
   position: relative;
   background-color: #fff;
   box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
   border-bottom: 1px solid #e8e8e8;
 }
 
-.cpmw_modal-close {
+.cpgw_modal-close {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -88,18 +88,18 @@ button.cpmw_modal-toggle {
   border: 0;
 }
 
-.cpmw_modal-close:hover {
+.cpgw_modal-close:hover {
   color: #777;
 }
 
-.cpmw_modal-heading {
+.cpgw_modal-heading {
   font-size: 1.125em;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.wp-submenu a[href*="admin.php?page=wc-settings&tab=checkout&section=cpmw"] strong {
+.wp-submenu a[href*="admin.php?page=wc-settings&tab=checkout&section=cpgw"] strong {
     background: #e86011;
     padding: 2px 4px;
     border-radius: 2px;
