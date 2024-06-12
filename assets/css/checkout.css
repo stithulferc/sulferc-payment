@@ -1,8 +1,8 @@
-li.wc_payment_method.payment_method_cpmw img {
+li.wc_payment_method.payment_method_cpgw img {
     height: 25px;
 }
 .cegc-ph-item{position:relative;overflow:hidden;}.cegc-ph-item:before{position:absolute;top:0;right:0;bottom:0;left:50%;z-index:1;width:500%;margin-left:-250%;background:linear-gradient(90deg,hsla(0,0%,100%,0) 46%,hsla(0,0%,100%,.35) 50%,hsla(0,0%,100%,0) 54%) 50% 50%;-webkit-animation:phAnimation .8s linear infinite;animation:phAnimation .8s linear infinite;content:" ";pointer-events:none}.ph-item>*{display:flex;flex:1 1 auto;flex-flow:column;margin-bottom:15px;padding-right:15px;padding-left:15px}.ph-row{display:flex;flex-wrap:wrap;margin-top:-7.5px}.ph-row div{height:10px;margin-top:7.5px;background-color:#ced4da}.ph-row .big,.ph-row.big div{height:50px}.ph-row .empty{background-color:hsla(0,0%,100%,0)}.cegc-ph-col-2{flex:0 0 16.66667%}.cegc-ph-col-4{flex:0 0 33.33333%}.cegc-ph-col-6{flex:0 0 50%}.cegc-ph-col-8{flex:0 0 66.66667%}.cegc-ph-col-10{flex:0 0 83.33333%}.cegc-ph-col-12{flex:0 0 100%}[class*=cegc-ph-col]{direction:ltr}[class*=cegc-ph-col]>*+.ph-row{margin-top:0}[class*=cegc-ph-col]>*+*{margin-top:7.5px}.ph-avatar{position:relative;width:100%;min-width:60px;overflow:hidden;background-color:#ced4da;border-radius:50%}.ph-avatar:before{display:block;padding-top:100%;content:" "}.ph-picture{width:100%;height:120px;background-color:#ced4da}@-webkit-keyframes phAnimation{0%{transform:translate3d(-30%,0,0)}to{transform:translate3d(30%,0,0)}}@keyframes phAnimation{0%{transform:translate3d(-30%,0,0)}to{transform:translate3d(30%,0,0)}}
-.cpmwp-supported-wallets-wrap .cpmw_p_connect {
+.cpgwp-supported-wallets-wrap .cpgw_p_connect {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -12,7 +12,7 @@ li.wc_payment_method.payment_method_cpmw img {
     font-size: 0.9em;
     line-height: 1em;
 }
-.cpmwp-supported-wallets-wrap .cpmw_p_status:before {
+.cpgwp-supported-wallets-wrap .cpgw_p_status:before {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -22,22 +22,22 @@ li.wc_payment_method.payment_method_cpmw img {
     display: inline-block;
     vertical-align: middle;
 }
-.cpmwp-supported-wallets-wrap .cpmw_disconnect_wallet {
+.cpgwp-supported-wallets-wrap .cpgw_disconnect_wallet {
     cursor: pointer; 
     text-decoration: none;
     border-bottom: 1px solid;
 }
-.cpmwp-supported-wallets-wrap .cpmw_disconnect_wallet:hover {
+.cpgwp-supported-wallets-wrap .cpgw_disconnect_wallet:hover {
     color: #ff4e2f;
 }
 
-.cpmwp_gateway_desc {
+.cpgwp_gateway_desc {
     border-bottom: 1px solid #00000025;
     padding-bottom: 2px;
     margin-bottom: 10px;
     font-size: 0.9em;
 }
-.cpmwp-supported-wallets-wrap .cpmw_p_info {
+.cpgwp-supported-wallets-wrap .cpgw_p_info {
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -47,7 +47,7 @@ li.wc_payment_method.payment_method_cpmw img {
     font-size: 0.9em;
     line-height: 1.25em;
 }
-.cpmwp-supported-wallets-wrap .cpmw_selected_wallet{
+.cpgwp-supported-wallets-wrap .cpgw_selected_wallet{
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -60,7 +60,7 @@ li.wc_payment_method.payment_method_cpmw img {
 
 }
 
-.cpmwp-supported-wallets-wrap .cpmw_address_wrap {
+.cpgwp-supported-wallets-wrap .cpgw_address_wrap {
     display: flex;
     flex-direction: row;   
     border-bottom: 1px solid #00000025;
@@ -69,7 +69,7 @@ li.wc_payment_method.payment_method_cpmw img {
     justify-content: space-between;
     gap: 5px;
 }
-.cpmwp-supported-wallets-wrap .cpmw_p_network {
+.cpgwp-supported-wallets-wrap .cpgw_p_network {
     display: flex;
     flex-direction: row;   
     padding: 5px;   
@@ -78,14 +78,14 @@ li.wc_payment_method.payment_method_cpmw img {
     text-align: right;
 }
 
-.cpmwp-supported-wallets-wrap .cpmw_p_address {
+.cpgwp-supported-wallets-wrap .cpgw_p_address {
     white-space: nowrap;
     overflow: hidden;
     max-width: 60%;
     text-overflow: ellipsis;
 }
 
-.cpmwp-supported-wallets-wrap .cpmwp-connect-button {
+.cpgwp-supported-wallets-wrap .cpgwp-connect-button {
     margin-top: 6px;
     width: 100%;
     text-align: center;
@@ -102,28 +102,28 @@ li.wc_payment_method.payment_method_cpmw img {
     cursor: pointer; /* Cursor style on hover */
     transition: background-color 0.3s ease; /* Smooth color transition on hover */
   }
-  .cpmwp-supported-wallets-wrap .cpmwp-connect-button:hover{
+  .cpgwp-supported-wallets-wrap .cpgwp-connect-button:hover{
     background-color: #f89c35; /* Change background color on hover */
   }
-  .cpmwp-supported-wallets-wrap .cpmwp_currency_lbl {
+  .cpgwp-supported-wallets-wrap .cpgwp_currency_lbl {
     font-weight: bold;
     font-size: 0.9em;
     line-height: 1em;
     margin-bottom: 4px;
 }
-.cpmwp-supported-wallets-wrap .cpmwp_network_lbl {
+.cpgwp-supported-wallets-wrap .cpgwp_network_lbl {
     font-weight: bold;
     font-size: 0.9em;
     margin: 10px 0 4px;
     line-height: 1em;
 }
-.cpmwp-supported-wallets-wrap .cpmwp_payment_notice {
+.cpgwp-supported-wallets-wrap .cpgwp_payment_notice {
     font-size: 0.9em;
     line-height: 1.25em;
     margin-top: 10px;
     color: #0cd20c;
 }
-.cpmwp-supported-wallets-wrap .cpmwp_insufficient_blnc {
+.cpgwp-supported-wallets-wrap .cpgwp_insufficient_blnc {
     font-size: 0.9em;
     line-height: 1.25em;
     margin-top: 10px;
