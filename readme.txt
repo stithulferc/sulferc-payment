@@ -1,25 +1,26 @@
 === SULFERC Payment Gateway ===
-Contributors:stithulf
-Tags:crypto, metamask, woocommerce, payment, gateway
-Requires at least:5.0
-Tested up to:6.5
-Requires PHP:5.6
-Stable tag:1.0.0
-License:GPLv2 or later
-License URI:http://www.gnu.org/licenses/gpl-2.0.html
+Contributors: stithulf
+Donate link: https://www.paypal.com/paypalme/alexkeston
+Tags: crypto, metamask, woocommerce, payment, gateway
+Requires at least: 5.0
+Tested up to: 6.5
+Stable tag: 1.0.0
+Requires PHP: 5.6
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Use SULFERC Payment Gateway store and let customers pay with BNB, SULFERC or BUSD.
+Use SULFERC Payment Gateway plugin and let your customers pay with BNB or BUSD. 
 
 == Description ==
 
 ### 🦊 Crypto Payment Gateway
 
-Let your customers pay with cryptocurrency - SULFERC, BNB or BUSD inside your WooCommerce store via **MetaMask extension** for WooCommerce store. You will receive crypto payments easily inside your store, cryptocurrency will be transferred immediately inside your personal crypto wallet address.
+Let your customers pay with cryptocurrency – SULFERC, BNB or BUSD inside your WooCommerce store via **MetaMask extension** for WooCommerce store. You will receive crypto payments easily inside your store, cryptocurrency will be transferred immediately inside your personal crypto wallet address.
 
 Process crypto on your WooCommerce store on-site, and receive them directly into your crypto wallet.
 
 
-### 🔥 Features - MetaMask Extension For WooCommerce
+### 🔥 Features – MetaMask Extension For WooCommerce
 
 * Customers can pay with Stithulf ERC(SULFERC) or BUSD.
 * Automatically convert fiat currency to cryptocurrency real time price at checkout.
@@ -74,13 +75,30 @@ You may now contribute to the plugin on GitHub:
 * **API docs:-** [https://docs.openexchangerates.org/](https://docs.openexchangerates.org/) 
 * **Privacy policy:-** [https://openexchangerates.org/privacy](https://openexchangerates.org/privacy)   
 * **Term of Use:-** [https://openexchangerates.org/terms](https://openexchangerates.org/terms)  
-* **Wallet Connect:-** [https://walletconnect.com](https://walletconnect.com)   
+* **Wallet Connect:-** [https://walletconnect.com](https://walletconnect.com)  
 
-== Installation ==
+== Frequently Asked Questions ==
 
-1. Install **SULFERC Payment Gateway* from the RedVilla repository or by uploading plugin-zip unzipped folder to the **/wp-content/plugins** directory.
-2. Activate the plugin through **Plugins >> Installed Plugin** menu in WordPress
-3. After plugin activation, you can find the MetaMask payment gateway settings in the Woocommerce Payments Section.
+= What do I need to accept Payments through Crypto?  =
+
+You only need a MetaMask Wallet and Your Metamask Address. You will need to setup your MetaMask Wallet to Binance Smart Chain Network. 
+
+= How much time does it take to accept payments? =
+
+You will receive the payment on your Metamask Wallet as soon as transactions are completed.
+
+= Does Stithulf or any Third Party gets commissions from my sales? =
+
+No. We take 0% Commissions per sale made on your WooCommerce Store.
+
+= Will Stithulf take commissions from users? =
+
+No. We do not take commissions from any users. User will only have to pay BSC Network fees which are considered one of the lowest fees on all blockchains.
+
+== Screenshots ==
+
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Screenshots are stored in the /assets directory.
+2. This is the second screen shot
 
 == Changelog ==
 
@@ -88,3 +106,8 @@ You may now contribute to the plugin on GitHub:
 <pre>
 New: Initial plugin release.
 </pre>
+
+== Upgrade Notice ==
+
+= 1.0 =
+Initial Plugin Release with WordPress-WooCommerce
