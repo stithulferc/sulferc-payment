@@ -1,5 +1,5 @@
 === SULFERC Payment Gateway ===
-Contributors: stithulf
+Contributors: stithulf, vedantsulferc
 Donate link: https://www.paypal.com/paypalme/alexkeston
 Tags: crypto, metamask, woocommerce, payment, gateway
 Requires at least: 5.0
