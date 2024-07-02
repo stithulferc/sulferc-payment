@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Plugin Name:SULFERC Payment Gateway
- * Description:Use MataMask cryptocurrency payment gateway for WooCommerce store and let customers pay with BNB or BUSD.
- * Author:Stithulf ERC
- * Author URI:https://erc.stithulf.com/
+ * Plugin Name: SULFERC Payment Gateway
+ * Description: Use MataMask cryptocurrency payment gateway for WooCommerce store and let customers pay with BNB or BUSD.
+ * Author: Stithulf ERC
+ * Author URI: https://erc.stithulf.com/
  * Version: 1.0.0
  * License: GPL2
  * Text Domain: sulferc-payment-gateway
