@@ -148,7 +148,6 @@ if (!class_exists('cpgw_metamask_pay')) {
             if (is_admin()) {
                 require_once CPGW_PATH . 'admin/table/cpgw-transaction-table.php';
                 require_once CPGW_PATH . 'admin/table/cpgw-list-table.php';
-                require_once CPGW_PATH . 'admin/class.review-notice.php';
                 require_once CPGW_PATH . 'admin/codestar-framework/codestar-framework.php';
                 require_once CPGW_PATH . 'admin/options-settings.php';
             }
